@@ -66,7 +66,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <img
               src={logo}
               alt=""
-              className=" object-cover h-16 duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:scale-105"
+              className=" object-cover h-12 duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:scale-105"
             />
           </div>
         </div>
