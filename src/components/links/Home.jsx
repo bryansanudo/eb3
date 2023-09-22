@@ -1,23 +1,35 @@
 import React from "react";
 import Section from "@/components/links/Section";
+import James from "@/assets/James.png";
+import JamesBg from "@/assets/James-bg.jpg";
 
 const Home = () => {
   return (
-    <Section
-      title="Home"
-      subtitle="The Better FREE Way To Connect With The Right Manpower For Your Business
-    No Cost, No Hassle, No Brainer"
-    >
+    <Section title="Home">
       <div className="flex items-center justify-center flex-col gap-10">
-        <div>
-          Meet The Founder James Baker, CPA James is the head of different
-          companies around the US, serving international Corporations and
-          international entrepreneurs with different services and companies. ​
-          James allied with silent investors to create EB-3 Workforce solutions,
-          a company that connects employers which are facing a chronic shortage
-          of unskilled workers with immigrant employees willing to apply for a
-          US Green Card through the EB-3 Visa program.
+        <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
+          <div className="md:w-1/2 ">
+            <img src={JamesBg} className="rounded-2xl" />
+          </div>
+          <div className="md:w-1/2 max-w-[500px]">
+            <div className="text-center mb-10">
+              <p className="text-3xl text-gray-600">Meet The Founder</p>
+              <p className="text-5xl font-bold ">James Baker, CPA</p>
+              <span className="border-b-8 border-black"></span>
+            </div>
+            <p className="text-left ">
+              James is the head of different companies around the US, serving
+              international Corporations and international entrepreneurs with
+              different services and companies. ​ James allied with silent
+              investors to create EB-3 Workforce solutions, a company that
+              connects employers which are facing a chronic shortage of
+              unskilled workers with immigrant employees willing to apply for a
+              US Green Card through the EB-3 Visa program.
+            </p>
+            <button>YES! TEACH ME HOW</button>
+          </div>
         </div>
+
         <div>
           Contact Us Want to Know More? If you find yourself in a situation
           where you are struggling to find a significant number of qualified,
